@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the wonders of astronomy - Join our community of astronomers and discover the mysteries of the universe">
+    <title>Astron - Explore the Universe</title>
+    
+    <!-- Preconnect to image sources for faster loading -->
+    <link rel="preconnect" href="images">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <i class="fas fa-meteor"></i>
+                    <span>ASTRON</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="image-container">
+                <!-- Low quality placeholder -->
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%23050510' width='1920' height='1080'/%3E%3C/svg%3E" 
+                     alt="Crescent Moon" 
+                     class="placeholder-img">
+                <!-- Actual image with lazy loading -->
+                <img data-src="images/space-hero.jpg" 
+                     alt="Crescent Moon in deep space" 
+                     class="lazy-img hero-img"
+                     loading="lazy">
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <p class="hero-label fade-in">EXPLORE</p>
+                <h1 class="hero-title fade-in-delay-1">ASTRONOMY</h1>
+                <p class="hero-subtitle fade-in-delay-2">Discover the wonders of the universe</p>
+                <a href="#about" class="hero-btn fade-in-delay-3">
+                    <span>Learn More</span>
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Observatory Section -->
+    <section class="observatory-section">
+        <div class="container">
+            <div class="image-container observatory-img-container">
+                
+                <img data-src="images/nebula3.png" 
+                     alt="Observatory at sunset" 
+                     class="lazy-img"
+                     loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-label">How Stars Shine</h2>
+            </div>
+            <p text align="center">Stars shine because of nuclear fusion happening deep in their cores. Below is how it works:-
+</p>
+<!-- HOW STARS SHINE-->
+            <div class="services-grid">
+                <div class="service-card fade-in-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Gravity pulls hydrogen atoms together.</h3>
+                    <p>Gravity causes vast clouds of hydrogen gas in space to slowly collapse inward. As the atoms move closer together, the cloud becomes denser and warmer, forming the early structure of a star.</p>
+                </div>
+                <div class="service-card fade-in-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>They fuse and form helium.</h3>
+                    <p>As the core becomes hotter and denser, hydrogen atoms begin to collide and fuse together. This nuclear fusion process converts hydrogen into helium at the star’s center.</p>
+                </div>
+                <div class="service-card fade-in-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>This fusion releases tremendous energy.</h3>
+                    <p>The fusion of hydrogen into helium releases enormous amounts of energy. This energy creates outward pressure that balances gravity and stabilizes the star.</p>
+                </div>
+                <div class="service-card fade-in-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>That energy becomes light and heat.</h3>
+                    <p>The energy produced in the core travels outward and escapes into space as light and heat. This radiation is what makes the star shine and provides warmth to its surroundings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in-scroll">
+                    <p class="section-label">WHAT IS ASTRONOMY?</p>
+                    <h2>A New Dawn of Discovery</h2>
+                    <p>Astronomy is the science that studies everything in space from the planets in our solar system to the billions of stars and galaxies spread across the universe. It helps us understand how the universe works and how everything in it is connected.</p>
+                    <p>Join us on an extraordinary journey through space and time, where every observation brings new insights into the nature of existence itself.</p>
+                    <i class="fas fa-rocket"></i>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-label">ABOUT US</p>
+                <h2>Astronomy Communities For Everyone</h2>
+                <p class="section-subtitle">Welcome to our journey through the universe, a place filled with planets, stars, galaxies, and endless mysteries waiting to be explored. Astronomy is the science that helps us understand everything beyond Earth. It teaches us how the planets move, how stars are born, why the Moon changes shape, and what lies in the deepest parts of space that we can’t even see with our eyes.</p>
+            </div>
+            <p>For thousands of years, humans have looked up at the night sky and wondered what the shining points of light really are. Today, thanks to telescopes, spacecraft, and amazing discoveries, we know more about the universe than ever before  but there is still so much left to learn. That’s what makes astronomy exciting. Every new discovery helps us understand our place in the universe a little better.</p>
+            <div class="stats-grid">
+                
+        
+                <div class="stat-item fade-in-scroll">
+                    <div class="stat-number" data-target="300000">100</div>
+                    <div class="stat-label">People Understand Concept of astronomy</div>
+                </div>
+                <div class="stat-item fade-in-scroll">
+                    <div class="stat-number" data-target="1000000">50000</div>
+                    <div class="stat-label">Lack knowledge about astronomy</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community-section">
+        <div class="container">
+            <div class="community-grid">
+                <div class="community-images">
+                    <div class="image-container community-img-1 fade-in-scroll">
+                        <!-- <img src="images/astronaut_Alexis.jpg" 
+                             alt="Photographer placeholder" 
+                             class="placeholder-img"> -->
+                        <img data-src="images/astronaut_Alexis.jpg" 
+                             alt="Alexis at the moon" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <div class="image-container community-img-2 fade-in-scroll">
+                        
+                        <img data-src="images/alexiswalk.png" 
+                             alt="alexis with telescope" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                </div>
+                <div class="community-content fade-in-scroll">
+                    <p class="section-label">WHO WE ARE</p>
+                    <h2>A Community of Astronomers</h2>
+                    <p>We are a diverse community united by our passion for the cosmos. From amateur stargazers to professional researchers, we share knowledge, experiences, and the wonder of astronomical discovery.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> <span>Access to world-class observatories</span></li>
+                        <li><i class="fas fa-check"></i> <span>Collaborative research opportunities</span></li>
+                        <li><i class="fas fa-check"></i> <span>Expert-led workshops and seminars</span></li>
+                        <li><i class="fas fa-check"></i> <span>State-of-the-art equipment access</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar System Section -->
+    <section class="solar-system-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-label">ASTRONOMY DISCOVERY</p>
+                <h2>Solar System Rocky Planets</h2>
+                <p class="section-subtitle">Explore the terrestrial planets that share our cosmic neighborhood in the inner solar system.</p>
+            </div>
+            <div class="planets-grid">
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        <img data-src="images/sun.png" 
+                             alt="Mercury planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>SUN</h3>
+                    <p>The Sun is a massive star at the center of our solar system, made mostly of hydrogen and helium. It produces energy through nuclear fusion, where hydrogen atoms combine to form helium, releasing enormous amounts of light and heat. This energy drives Earth’s climate and makes life possible. The Sun’s strong gravity holds all the planets, moons, asteroids, and comets in orbit around it</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/Mercury.png" 
+                             alt="Venus planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Mercury</h3>
+                    <p>Mercury is the closest planet to the Sun and the smallest in the solar system. It has a rocky surface covered in craters and almost no atmosphere, causing temperatures to swing from extremely hot during the day to freezing cold at night.</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/venus.png" 
+                             alt="Mars planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Venus</h3>
+                    <p>Venus is similar in size to Earth but has a thick atmosphere made mostly of carbon dioxide with clouds of sulfuric acid. This creates a powerful greenhouse effect, making Venus the hottest planet. It also rotates very slowly and in the opposite direction of most planets.</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/earth.png" 
+                             alt="Mars planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Earth</h3>
+                    <p>Earth is a rocky planet with liquid water on its surface and an atmosphere rich in nitrogen and oxygen. It supports a wide variety of life and has a magnetic field that protects it from harmful solar radiation..</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/mars.png" 
+                             alt="Mars planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Mars</h3>
+                    <p>Mars is a cold, rocky planet known for its red color, caused by iron oxide in its soil. It has the largest volcano and canyon in the solar system and shows evidence that liquid water once flowed on its surface.</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/jupiter.png" 
+                             alt="Mars planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Jupiter</h3>
+                    <p>Jupiter is the largest planet and a gas giant made mostly of hydrogen and helium. It has a strong magnetic field, dozens of moons, and the Great Red Spot, a massive storm that has lasted for centuries..</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/saturn.png" 
+                             alt="Mars planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Saturn</h3>
+                    <p>Saturn is a gas giant best known for its extensive ring system made of ice and rock. It has many moons, including Titan, which has lakes of liquid methane and ethane.</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/uranus.png" 
+                             alt="Mars planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Uranus</h3>
+                    <p>Uranus is an ice giant with a blue-green color caused by methane in its atmosphere. It is tilted on its side, leading to extreme seasonal changes, and has a cold, icy interior.</p>
+                </div>
+                <div class="planet-card fade-in-scroll">
+                    <div class="image-container planet-img-container">
+                        
+                        <img data-src="images/neptune.png" 
+                             alt="Mars planet" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                    <h3>Neptune</h3>
+                    <p>Neptune is an ice giant and the most distant planet from the Sun. It has deep blue coloring, powerful winds, and massive storms, making it one of the most dynamic planets in the solar system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="research-section" id="research">
+        <div class="container">
+            <div class="research-grid">
+                <div class="research-content fade-in-scroll">
+                    <p class="section-label">FEATURED RESEARCH</p>
+                    <h2>Comet Trajectory</h2>
+                    <p>In astronomy, a comet's trajectory serves as a bridge between the chaotic birth of the solar system and modern celestial mechanics, acting as a "fossilized" record of the gravitational forces that shaped our neighborhood. These highly eccentric paths, governed by Kepler’s Laws and Newton’s gravity, trace the history of planetary migration, as most comets were flung into the Oort Cloud or Kuiper Belt by the gravity of giant planets billions of years ago. By studying these orbits, astronomers can detect "non-gravitational" forces caused by outgassing, which revealed the existence of the solar wind, and monitor potential Earth-crossers for planetary defense. Ultimately, the trajectory of a comet is a roadmap that leads scientists back to the primordial ices and organic molecules that may have seeded life on Earth, proving that these icy wanderers are fundamental to our understanding of both our origins and our cosmic safety.</p>
+                    <ul class="research-list">
+                    </ul>
+                </div>
+                <div class="research-image fade-in-scroll">
+                    <div class="image-container">
+                        
+                        <img data-src="images/Comet.png" 
+                             alt="Comet in space" 
+                             class="lazy-img"
+                             loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-label">OUR BLOG</p>
+                <h2>News & Blog</h2>
+                <p class="section-subtitle">Stay updated with the latest discoveries, research findings, and astronomical events from around the world.</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card fade-in-scroll">
+                    <div class="blog-image">
+                        <div class="image-container">
+                            <img src="images/blog1.jpg" 
+                                 alt="Blog placeholder" 
+                                 class="placeholder-img">
+                            <img data-src="images/blog1.jpg" 
+                                 alt="Nebula in space" 
+                                 class="lazy-img"
+                                 loading="lazy">
+                        </div>
+                        <div class="blog-date">
+                            <span class="date-day">14</span>
+                            <span class="date-month">Feb</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Space is Full of Surprises</h3>
+                        <p>Recent observations have revealed unprecedented details about distant galaxies, challenging our understanding of cosmic evolution...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card fade-in-scroll">
+                    <div class="blog-image">
+                        <div class="image-container">
+                            <img src="images/blog2.jpg" 
+                                 alt="Blog placeholder" 
+                                 class="placeholder-img">
+                            <img data-src="images/blog2.jpg" 
+                                 alt="Galaxy spiral" 
+                                 class="lazy-img"
+                                 loading="lazy">
+                        </div>
+                        <div class="blog-date">
+                            <span class="date-day">14</span>
+                            <span class="date-month">Feb</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Space is What Matters the Most</h3>
+                        <p>Understanding our place in the universe is fundamental to human knowledge. New discoveries continue to expand our cosmic perspective...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card fade-in-scroll">
+                    <div class="blog-image">
+                        <div class="image-container">
+                            <img src="images/blog3.jpg" 
+                                 alt="Blog placeholder" 
+                                 class="placeholder-img">
+                            <img data-src="images/blog3.jpg" 
+                                 alt="Milky Way" 
+                                 class="lazy-img"
+                                 loading="lazy">
+                        </div>
+                        <div class="blog-date">
+                            <span class="date-day">14</span>
+                            <span class="date-month">Feb</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Let's Measure the Space</h3>
+                        <p>Advanced measurement techniques and telescopes allow us to calculate distances to far-off celestial objects with remarkable precision...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-content fade-in-scroll">
+                <h2>Let's Explore With Us</h2>
+                <p>Join our community of astronomers and embark on a journey through the cosmos. Whether you're a beginner or an expert, there's a place for you among the stars.</p>
+                <a href="https://wa.me/message/XFKBDXG5L7QSA1" class="cta-button">
+                    <span>Get Started</span>
+                    <i class="fas fa-rocket"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-meteor"></i>
+                        <span>ASTRON</span>
+                    </a>
+                    <p>Exploring the universe, one star at a time.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/message/XFKBDXG5L7QSA1" aria-label="Whastapp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="mailto:alexism28@uwcea.org"><i class="fa-solid fa-message"></i></a>
+                    
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#research">Research</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Publications</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> alexism28@uwcea.org</li>
+                            <li><i class="fas fa-phone"></i> +(255)760-354-204</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Kitende, Wakiso Uganda</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Astron. All rights reserved. | Designed & Developed by: <a href="https://wa.me/message/XFKBDXG5L7QSA1">Alexis Mugerwa.</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
